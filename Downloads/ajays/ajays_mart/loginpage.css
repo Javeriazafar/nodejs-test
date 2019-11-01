@@ -1,0 +1,114 @@
+
+.container {
+	
+	position:absolute;	
+	transform:translate(-50%,-50%);
+	font-weight:bold;
+	font-family: sans-serif;
+	box-sizing:border-box;
+	top:50%;
+	left:50%;
+box-shadow:0 10px 20px rgba(0,0,0,.5);
+border-radius:5px;	
+	background:#eeeeee69;
+	transition:.5s;
+	width:350px;
+	height:300px;
+
+	
+}
+.container:hover{
+	box-shadow:0 10px 20px rgba(0,0,0,0);
+	background:rgba(255,255,255,1);
+}
+.glass{
+	width:100%;
+	height:100%;
+	padding:40px;
+	box-sizing:border-box;
+	background:rgba(255,255,255,.1);
+	border-radius:5px;
+	transition:.5s;
+}
+.glass:hover{
+	transform:translate(20px,20px);
+	box-shadow:0 10px 20px rgba(0,0,0,.5);
+	
+}
+h3{	
+margin:0;
+	padding: 0 0 20px 60px;
+	color:#7FFF00;
+	font-size:25px;
+}
+body{
+	margin:0;
+	padding:0;
+	background-image:url('https://phyxperformance.com/wp-content/uploads/2018/09/4df1ee33482977.56acb21f80216.jpg');
+    background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+	
+}
+
+
+::placeholder{color:#01403a;}
+.user input{
+	background:none;
+	border:none;
+	outline:none;
+	position:relative;
+	height:50px;
+	background:transparent;
+	border-bottom:2px solid #01403a;
+	padding-left:20px;
+	font-size:16px;
+	box-sizing:border-box;
+	
+}
+.user span{
+	position:relative;
+right:220px;
+	color:#01403a;
+}
+.container input[type="submit"]{
+    left:50px;
+	bottom:-10px;
+	position:relative;
+	border:none;
+	outline:none;
+	font-size:16px;
+	background:#01403a;
+	border-radius:5px;
+	cursor:pointer;
+	color:#7cf700ed;
+	width:100px;
+	height:30px;
+	box-sizing:border-box;
+	box-shadow:0 3px 15px rgb(1, 103, 5);
+}
+
+
+
+
+
+
+
+
+
+ .glass a  {
+	text-align:centre;
+	color:#7cf700ed;
+	font-size:14px;
+	font-weight:bold;
+	font-family:sans-serif;
+	text-decoration:none;
+	padding:5px 5px 50px 25px ;
+
+	
+	
+}
+
+
+	
+
